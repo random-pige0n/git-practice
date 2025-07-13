@@ -1,0 +1,96 @@
+html {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   background-color: #024959;
+}
+
+nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1rem;
+   background-color: #033d4b;
+   margin: 2rem;
+}
+
+nav .logo {
+   font-size: 1.5rem;
+   color: #F2E3D5;
+}
+
+nav .nav-links a {
+   color: #F2E3D5;
+   text-decoration: none;
+   padding: 0.5rem 1rem;
+   transition: background-color 0.3s;
+}
+
+nav .nav-links a:hover {
+   background-color: #045d6b;
+   border-radius: 1rem;
+}
+
+main {
+   padding-bottom: 150px;
+}
+.hero {
+   text-align: center;
+   padding: 2rem;
+   color: #026773;
+   background-color: #F2E3D5;
+   font-size: 2rem;
+   width: 60rem;
+   margin: auto;
+   opacity: 0.8;
+}
+
+p {
+   font-size: 1.2rem;
+   line-height: 1.6;
+}
+
+span {
+   font-weight: lighter;
+}
+
+section{
+   color: #F2E3D5;
+   margin: 4rem;
+}
+
+.skills i {
+   margin: 2rem;
+   display: block;
+   gap: 1rem;
+}
+
+.contact {
+   text-align: center;
+}
+.contact a {
+   color: #F2E3D5;
+   text-decoration: underline;
+   font-size: 1.2rem;
+}
+.contact a::after {
+   color: #F2E3D5;
+}
+
+footer {
+   text-align: center;
+   padding: 1rem;
+   background-color: #033d4b;
+   color: #F2E3D5;
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   margin: 2rem;
+   max-height: 150px;
+}
+
+footer .social-icons {
+   display: flex;
+   justify-content: center;
+   gap: 1rem;
+   padding: 1rem;
+}
